@@ -119,7 +119,7 @@ angular.module('youtube-embed', [])
     var eventPrefix = 'youtube.player.';
 
     $window.YTConfig = {
-        host: 'https://www.youtube.com'
+        host: 'https://www.youtube-nocookie.com'
     };
 
     return {
